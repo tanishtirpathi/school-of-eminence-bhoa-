@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    30deg,
+    rgb(230, 230, 230),
+    rgb(209, 209, 209),
+    rgb(244, 244, 244),
+    rgb(230, 230, 230),
+    rgb(209, 209, 209),
+    rgb(244, 244, 244),
+    rgb(230, 230, 230),
+    rgb(151, 151, 151),
+    rgb(244, 244, 244),
+    rgb(230, 230, 230),
+    rgb(209, 209, 209),
+    rgb(244, 244, 244),
+    rgb(167, 167, 167),
+    rgb(209, 209, 209),
+    rgb(244, 244, 244),
+    rgb(230, 230, 230),
+    rgb(140, 140, 140),
+    rgb(244, 244, 244)
+  );
+}
+.white {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+.main {
+  height: 100vh;
+  opacity: 0.93;
+  background: url("backgroung.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+nav {
+  z-index: 15;
+  position: sticky;
+  top: 40px;
+  cursor: pointer;
+  display: flex;
+  margin-inline: 11%;
+  padding: 18px;
+  border-radius: 10px;
+  width: 76%;
+  box-shadow: 4px 4px 30px rgb(0, 0, 0);
+  background-color: rgba(255, 221, 211, 0.948);
+}
+
+nav ul {
+  z-index: 5;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  z-index: 5;
+  color: orangered;
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 0px 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px orangered;
+  font-weight: 800;
+}
+header {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+header a {
+  z-index: 10;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  text-align: right;
+  margin: 10px 30px;
+}
+header a:hover {
+  z-index: 10;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 8px rgb(255, 60, 0);
+  font-weight: 900;
+  text-align: right;
+  margin: 10px 30px;
+}
+header h1 {
+  z-index: 10;
+  font-size: 30px;
+  margin: 10px 800px 10px 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+header h1:hover {
+  z-index: 10;
+  text-shadow: 2px 2px 7px rgb(255, 111, 0);
+}
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  overflow: scroll;
+  height: 86vh;
+  margin: 20px;
+  padding: 20px;
+}
+#teachertable {
+  margin-bottom: 200px;
+  box-shadow: 2px 2px 2px red;
+}
+/* Style the entire scrollbar */
+html::-webkit-scrollbar {
+  width: 10px; /* Set width of the scrollbar */
+}
+
+/* Style the track (the background) */
+html::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set background color of the track */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the handle (the draggable part) */
+html::-webkit-scrollbar-thumb {
+  background: #888; /* Set background color of the handle */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the handle on hover */
+html::-webkit-scrollbar-thumb:hover {
+  background: #4caf50; /* Change color on hover */
+}
+
+/* Style the entire scrollbar */
+.container::-webkit-scrollbar {
+  width: 10px;
+  background-color: red; /* Set width of the scrollbar */
+}
+
+/* Style the track (the background) */
+.container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set background color of the track */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the handle (the draggable part) */
+.container::-webkit-scrollbar-thumb {
+  background: #b36735; /* Set background color of the handle */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+  background: #ff8c00; /* Change color on hover */
+}
+.container h2 {
+  text-align: center;
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+  background-color: rgb(217, 237, 255);
+  padding: 20px;
+  font: 100 50px black;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 9px 9px 40px orangered;
+  transition-duration: 0.7s;
+}
+.container :hover {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 3px 3px 40px rgb(1, 1, 1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  border: 0px solid red;
+  box-shadow: -7px 7px 32px black;
+}
+#name {
+  margin: 12px;
+  border: 2px solid orangered;
+  padding: 20px;
+}
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #fa3200;
+  box-shadow: -2px 2px 3px black;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  margin: 20px;
+}
+
+tr:hover {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  box-shadow: -4px -4px 5px rgb(120, 226, 0);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #929292;
+}
+.container h2 {
+  text-align: center;
+  color: orangered;
+  text-shadow: 2px 2px 2px black;
+  font-size: 30px;
+  margin: 10px 0;
+
+  font-weight: 700;
+  transition-duration: 1s;
+}
+.container h2:hover {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(233, 60, 17);
+  font-size: 32px;
+  margin: 10px 0;
+  font-weight: 900;
+}
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+  margin-inline: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 900px;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+}
+.photoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.photos img {
+  height: 400px;
+  margin-top: 100px;
+  box-shadow: -2px -2px 12px rgb(0, 0, 0);
+  margin-bottom: 2px;
+  width: 100%;
+  border: 2px solid white;
+}
+#as {
+  height: 500px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 14px;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  box-shadow: 6px -6px 13px rgb(0, 0, 0);
+  width: 90%;
+  transition-duration: 0.5s;
+}
+#as:hover {
+  height: 520px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 14px;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  box-shadow: 6px -6px 13px rgb(214, 57, 0);
+  width: 91%;
+}
+.teachers {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 96%;
+  padding: 20px;
+  margin-inline: 1% 1%;
+  background-color: rgb(255, 77, 0);
+  position: relative;
+  top: 30px;
+}
+.st {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.st h2 {
+  z-index: 10;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+.st p {
+  z-index: 10;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}

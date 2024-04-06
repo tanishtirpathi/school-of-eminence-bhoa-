@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.white {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+.main {
+  height: 86vh;
+  opacity: 0.93;
+  background: url("backgroung.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+nav {
+  z-index: 15;
+  position: sticky;
+  top: 40px;
+  display: flex;
+  margin-inline: 11%;
+  padding: 20px;
+  border-radius: 10px;
+  width: 76%;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  background-color: rgb(251, 229, 222);
+}
+
+nav ul {
+  z-index: 5;
+  list-style: none;
+  display: flex;
+
+  align-items: center;
+}
+nav ul li a {
+  z-index: 5;
+  color: orangered;
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 0px 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px orangered;
+  font-weight: 800;
+}
+header {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+header a {
+  z-index: 10;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  text-align: right;
+  margin: 10px 30px;
+}
+header a:hover {
+  z-index: 10;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px rgb(255, 60, 0);
+  font-weight: 800;
+  text-align: right;
+  margin: 10px 30px;
+}
+header h1 {
+  z-index: 10;
+  font-size: 30px;
+  margin: 10px 800px 10px 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+header h1:hover {
+  z-index: 10;
+  text-shadow: 2px 2px 7px rgb(255, 111, 0);
+}
+.main div {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main div h1 {
+  z-index: 10;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 80px 0 20px 0;
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+.main div h2 {
+  z-index: 10;
+  font-size: 47px;
+  text-align: center;
+  color: rgb(255, 102, 0);
+  margin: 10px 0 20px 0;
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+.main div button {
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.41);
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgb(255, 77, 0);
+  margin: 10px 0 20px 0;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+.main div button:hover {
+  background-color: rgba(0, 0, 0, 0.741);
+  padding: 10px 20px;
+  font-size: 20px;
+  box-shadow: 2px 2px 20px rgb(112, 6, 6);
+  border: 2px solid rgb(255, 64, 0);
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px 0 20px 0;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+.main div button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+.score {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 86%;
+  padding: 20px;
+  margin-inline: 6% 8%;
+  background-color: rgb(255, 77, 0);
+  position: relative;
+  top: -30px;
+}
+.st {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.st h2 {
+  z-index: 10;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+.st p {
+  z-index: 10;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.staff h1 {
+  z-index: 10;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(229, 69, 15);
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+
+.student h3 {
+  color: orangered;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-bottom: 100px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+}
+#btni {
+  z-index: 10;
+  background-color: rgba(168, 37, 8, 0.941);
+  padding: 10px 20px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgb(63, 62, 62);
+  margin: 10px 0 20px 0;
+}
+
+#btni:hover {
+  z-index: 10;
+  background-color: rgba(255, 47, 0, 0.941);
+  padding: 10px 20px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0);
+  margin: 10px 0 20px 0;
+}
+#btni a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#btni:hover a {
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
